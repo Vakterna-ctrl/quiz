@@ -1,0 +1,50 @@
+.quiz{
+  display: flex;
+  width: 700px;
+  height: 500px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+
+}
+.square{
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(9,121,46,0.3085609243697479) 0%);
+  border: 1px solid black;
+  text-align: center;
+  line-height: 200px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.questions{
+  margin: auto;
+  display: none;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 400px;
+}
+.bigSquare{
+  width: 800px;
+  height: 300px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(9,121,46,0.3085609243697479) 0%);
+  border: 1px solid black;
+  text-align: center;
+  line-height: 200px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.bigsquare p{
+  width: 800px;
+  height: 100px;
+
+
+}
+button{
+  width: 400px;
+  height: 100px;
+}
